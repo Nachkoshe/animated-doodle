@@ -39,17 +39,9 @@ def send ():
         txt.insert(END, "\n" + "Bot: sorry i didnt get it")
         txt.insert(END, "\n" + "Bot: for more details visit 'www.fynd.academy'")
         txt.insert(END, "\n" + "Bot: thank you for contacting us, have a nice dat!!")
+    
     e.delete(0,END)
-    # while:
-    #     print("python backend development== 1")
-    #     print("full stack development" == 2)
-    #     ab = input("courses: ")
-
-
-
-
-
-# e.delete(0,END)
+    
 # input message area
 e = Entry(root,width=100)
 e.grid(row=1, column=0)
